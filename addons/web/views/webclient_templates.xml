@@ -184,7 +184,7 @@
                 <div class="row">
                   <div class="col-md-6 col-md-offset-3 o_database_list">
                     <div class="text-center">
-                      <img t-attf-src="/web/binary/company_logo{{ '?dbname='+db if db else '' }}"/>
+                      <img src="../static/src/img/Drawing.png"/>
                     </div>
                     <t t-raw="0"/>
                     <div class="text-center" t-if="not disable_footer">
@@ -258,7 +258,7 @@
         <template id="web.menu_secondary">
             <a class="oe_logo" t-att-href="'/web/?debug' if debug else '/web'">
                 <span class="oe_logo_edit">Edit Company data</span>
-                <img src='/web/binary/company_logo'/>
+                <img src='../static/src/img/Drawing.png'/>
             </a>
             <div class="oe_secondary_menus_container">
                 <t t-foreach="menu_data['children']" t-as="menu">
